@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Smart Knowledge</title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="{{url_for('static', filename='images/favicon.ico')}}">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap core CSS -->
+		<link href="{{url_for('static', filename='bootstrap/css/bootstrap.css')}}" rel="stylesheet">
+
+		<!-- Font Awesome CSS -->
+		<link href="{{url_for('static', filename='fonts/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link href="{{url_for('static', filename='css/animations.css')}}" rel="stylesheet">
+
+		<!-- Worthy core CSS file -->
+		<link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+
+		<!-- Custom css -->
+		<link href="{{url_for('static', filename='css/custom.css')}}" rel="stylesheet">
+
+
+
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ -->
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img width="60px" id="logo" src="{{url_for('static', filename='images/logo.png')}}"></a>
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">Smart Knowledge</a></div>
+								<div class="site-slogan">Free Knowledge Graph Organized by <a target="_blank" href="http://nlp.csai.tsinghua.edu.cn/site2/">THUNLP</a></div>
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Home</a></li>
+												<!-- <li><a href="#about">About</a></li> -->
+												<li><a href="#explore">Explore</a></li>
+												<li><a href="#paper">Paper</a></li>
+												<li><a href="#download">Download</a></li>
+												<li><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center">We are <span>Smart Knowledge</span></h1>
+							<p class="lead text-center">
+								Smart Knowledge is a knowledge graph organized by THUNLP. Besides the knowledge graph, we also provide its embeddings for available.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+<!-- 		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center">About <span>Smart Knowledge</span></h1>
+						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia, aspernatur.</p>
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="{{url_for('static', filename='images/section-image-1.png')}}" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+								<ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Reiciendis deleniti neque aliquid</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Ipsam fuga error commodi</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li>
+								</ul>
+							</div>
+						</div>
+						<div class="space"></div>
+						<h2>Becessitatibus quae beatae possimus ullam</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+								<p>Vitae dolores quam magnam accusantium nam, voluptatibus expedita delectus, dolorum odio magni ut nemo nihil ex earum pariatur molestias velit eveniet, facere autem saepe aut. Ut minima itaque porro facere. Cumque vitae autem, dignissimos molestiae necessitatibus culpa aliquam deleniti soluta sunt voluptatibus tenetur, unde dolorem eligendi doloribus quibusdam facere totam. Possimus atque deserunt numquam aliquam magnam, facilis officiis illo alias ipsa voluptas laborum, praesentium eveniet nobis velit voluptatem odio eligendi, corporis et iste distinctio! Repellendus, id, ad.</p>
+							</div>
+							<div class="col-md-6">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													Collapsible Group Item #1
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTwo">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Collapsible Group Item #2
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingThree">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+													Collapsible Group Item #3
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<div class="panel-body">
+												Richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- section end -->
+
+
+				<!-- section start -->
+				<!-- ================ -->
+				<div class="section translucent-bg bg-image-2 pb-clear">
+					<div class="container object-non-visible" data-animation-effect="fadeIn">
+
+						<!-- <h1 id="explore" class="title text-center">Explore</h1> -->
+						<div id="explore"　class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+
+
+						<div class="row">
+							<div class="col-md-4">
+							</div>
+							<div class="col-md-4">
+								<div align="center">
+									<img src="{{url_for('static', filename='images/logo.png')}}">
+								</div>
+							</div>
+							<div class="col-md-4">
+							</div>
+						</div>
+						<div class="space-half"></div>
+						<h1 id="explore" class="title text-center" padding="5px">Smart Knowledge</h1>
+						<div class="space"></div>
+
+						<div class="row">
+								<form name="searchForm" action="/search" method="get">
+									<div class="col-md-9">
+												 <input type="text" id="word" placeholder="   Type a term or a text..."
+												 	name="word" size = "100" style="height:50px;color:#FFFFFF;background-color:rgba(255,255,255,0.1);border:0px"/>
+									</div>
+									<div class="col-md-3">
+										<button type="submit" class="search-button form-inline btn btn-primary btn-large" id="mySubmit"
+											onload="document.searchForm.mySubmit.disabled=false;" onclick="closeAutocompleter(); submit();"
+											style="height:50px;">
+											<span style="font-weight:bold;">
+												Search
+											</span>
+										</button>
+									</div>
+								</form>
+						</div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+						<div class="space"></div>
+
+					</div>
+				</div>
+				<!-- section end -->
+
+				<!-- section start -->
+				<!-- ================ -->
+				<div class="section">
+					<div class="container">
+						<div class="space"></div>
+
+						<h1 class="text-center title" id="paper" align="left">Paper</h1>
+						<div class="separator">
+						</div>
+						<div  align="left">
+						<p class="lead text-center">Our papers that are related to Smart Knowledge.</p>
+						</div>
+						<hr>
+						</hr>
+						
+						<div class="row object-non-visible" data-animation-effect="fadeIn">
+							<div class="col-md-12">
+								<div class="filters text-center">
+									<ul class="nav nav-pills">
+										<li class="active"><a href="#" data-filter="*">All</a></li>
+										<li><a href="#" data-filter=".IJCAI">IJCAI</a></li>
+										<li><a href="#" data-filter=".AAAI">AAAI</a></li>
+										<li><a href="#" data-filter=".EMNLP">EMNLP</a></li>
+									</ul>
+								</div>
+								<div class="isotope-container row grid-space-20">
+
+									{% for i in info.paper %}
+									<div class="col-sm-6 col-md-3 isotope-item {{i.label}}">
+										<div class="image-box">
+											<div class="overlay-container">
+												<img src="{{i.img}}" alt="">
+												<a class="overlay" data-toggle="modal" data-target="#project-{{i.id}}">
+													<i class="fa fa-search-plus"></i>
+													<span>{{i.label}}</span>
+												</a>
+											</div>
+											<a  class="btn btn-default btn-block" data-toggle="modal" data-target="#project-{{i.id}}" style="word-break:break-all;word-wrap:break-word;">
+												{{i.model}}
+											</a>
+										</div>
+										<!-- Modal -->
+										<div class="modal fade" id="project-{{i.id}}" tabindex="-1" role="dialog" aria-labelledby="project-{{i.id}}-label" aria-hidden="true">
+											<div class="modal-dialog modal-lg">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+														<a href = "{{i.filesrc}}" >
+														<h4 class="modal-title" id="project-{{i.id}}-label">
+																{{i.title}}
+														</h4>
+														</a>
+													</div>
+													<div class="modal-body">
+														<h3>Abstract</h3>
+														<div class="row">
+															<div class="col-md-6">
+																<p>
+																	{{i.abstract}}
+																</p>
+															</div>
+															<div class="col-md-6">
+																<img src="{{i.img}}" alt="">
+															</div>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+
+						<div class="space"></div>
+						<div class="space"></div>
+					</div>
+				</div>
+				<!-- section end -->
+
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-1 blue">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="download"  class="text-center title">Download</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-body text-left">
+								<a  href=/download/relationVecBinary.txt target="_blank"> 
+									<h4 class="media-heading">Embeddings of the relations</h4>
+								</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<!-- <i class="fa fa-cog"></i> -->
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-left">
+								<a  href=/download/entityVecBinary.txt target="_blank"> 
+									<h4 class="media-heading">Embeddings of the entities</h4>
+								</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<!-- <i class="fa fa-check"></i> -->
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-left">
+								<a  href=/download/relation2id.txt target="_blank"> 
+									<h4 class="media-heading">Relation2id</h4>
+								</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<!-- <i class="fa fa-check"></i> -->
+							</div>
+						</div>
+
+						<div class="media">
+							<div class="media-body text-left">
+								<a  href=/download/latest-all.json.bz2 target="_blank"> 
+									<h4 class="media-heading">Dumps of Wikidata</h4>
+								</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<!-- <i class="fa fa-check"></i> -->
+							</div>
+						</div>
+
+
+						
+<!-- 						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 3</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-desktop"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 4</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-users"></i>
+							</div>
+						</div> -->
+					</div>
+					<!-- <div class="space visible-xs"></div> -->
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-body text-left">
+								<a  href=/download/entity2id.txt target="_blank"> 
+									<h4 class="media-heading">Entity2id</h4>
+								</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<!-- <i class="fa fa-check"></i> -->
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="space"></div>
+
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">Let's Work Together!</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+
+		<!-- section start -->
+		<!-- ================ -->
+		<!-- <div class="default-bg space">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">10000+ Happy Clients!</h1>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- section end -->
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+				<div class="container">
+					<h1 class="title text-center" id="contact">Contact Us</h1>
+					<div class="space"></div>
+
+					<div class="row">
+						<div class = "col-sm-12">
+
+								<div class="team-ct">
+									<div class="team-member-ct center">
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-1" class="team-member" order="1" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/1.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-2" class="team-member" order="2" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/2.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-3" class="team-member" order="3" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/3.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-4" class="team-member" order="4" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/4.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-5" class="team-member" order="5" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/5.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-5" class="team-member" order="5" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/5.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-5" class="team-member" order="5" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/5.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-5" class="team-member" order="5" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/5.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-5" class="team-member" order="5" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/5.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+
+									<a href="http://weibo.com/u/1970879995" target="_blank">
+										<div id="team-member-5" class="team-member" order="5" style="opacity: 1;">
+											<img class="team-mem-img" src="{{url_for('static', filename='photos/5.jpg')}}">
+											<div class="team-mem-info" id="team-mem-intro-1" style="opacity: 0;">
+												<span class="team-mem-name">孙茂松 教授</span>
+												<span class="team-mem-intro">指导教师</span>
+								 			</div>
+										</div>
+									</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="space"></div>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-7" >
+							<div class="footer-content">
+								<p class="large">
+								１、THULAC面向国内外大学、研究所、企业以及个人用于研究目的免费开放源代码。<br/>
+								２、如有机构或个人拟将THULAC用于商业目的，请发邮件至thunlp@gmail.com洽谈技术许可协议。<br/>
+								３、欢迎对该工具包提出任何宝贵意见和建议。请发邮件至thunlp@gmail.com。<br/>
+								４、如果您在THULAC基础上发表论文或取得科研成果，请您在发表论文和申报成果时声明“使用了清华大学THULAC”，并按如下格式引用：<br/>
+								</p>
+
+							</div>
+						</div>
+						<div class="col-sm-5" align="center">
+							<div>
+								<a target="_blank" href="mailto:cst_hanxu13@163.com">
+								<i class="fa fa-envelope-o" style="font-size: 100px;color: #333333;">
+								</i>
+								</a>
+							</div>
+							<div align="center"  style="font-size: 50px;color: #333333;">
+								thunlp@gmail.com
+							</div>
+						</div>
+	<!-- 					<div class="col-sm-6">
+							<div class="footer-content">
+								<form role="form" id="footer-form" action="mailto:cst_hanxu13@163.com" enctype="text/plain">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="subject" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="body" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">© 2011-2014 thunlp, all rights reserved. <a target="_blank" href="http://nlp.csai.tsinghua.edu.cn/site2/">THUNLP</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="{{url_for('static', filename='plugins/jquery.min.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="{{url_for('static', filename='plugins/modernizr.js')}}"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="{{url_for('static', filename='plugins/isotope/isotope.pkgd.min.js')}}"></script>
+
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="{{url_for('static', filename='plugins/jquery.backstretch.min.js')}}"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="{{url_for('static', filename='plugins/jquery.appear.js')}}"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="{{url_for('static', filename='js/template.js')}}"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="{{url_for('static', filename='js/custom.js')}}"></script>
+<!-- 		<script  type="text/javascript" src="{{url_for('static', filename='js/jquery-1.11.1.js')}}"></script>
+   		<script  type="text/javascript" src="{{url_for('static', filename='js/jquery.color-2.1.2.js')}}"></script>
+		<script type="text/javascript"  src="{{url_for('static', filename='js/jquery.scrollorama.js')}}"></script>
+   		<script  type="text/javascript" src="{{url_for('static', filename='js/intro.js')}}"></script> -->
+
+	</body>
+</html>

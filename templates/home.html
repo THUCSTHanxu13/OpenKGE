@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>OpenKGE</title>
+		<meta name="description" content="Open Knowledge Graph Embeddings and Toolkits">
+		<meta name="author" content="THUNLP">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href="{{{{url_for('static', filename='bootstrap/css/bootstrap.css')}}}}" rel="stylesheet">
+		<link href="{{{{url_for('static', filename='fonts/font-awesome/css/font-awesome.css')}}}}" rel="stylesheet">
+		<link href="{{{{url_for('static', filename='css/animations.css')}}}}" rel="stylesheet">
+		<link href="{{{{url_for('static', filename='css/style.css')}}}}" rel="stylesheet">
+		<link href="{{{{url_for('static', filename='css/custom.css')}}}}" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- header start -->
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<div class="col-md-4">
+						<div class="header-left clearfix">
+							<div class="logo smooth-scroll">
+								<a href="http://thunlp.org/site2/"><img width="70px" id="logo" src="{{{{url_for('static', filename='images/logo.png')}}}}"></a>
+							</div>
+						</div>
+						</div>
+
+						<div class="col-md-8">
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">OpenKGE</a></div>
+								<div class="site-slogan">Open Knowledge Graph Embeddings and Toolkits Organized by <a target="_blank" href="http://thunlp.org/site2/">THUNLP</a></div>
+							</div>
+
+						</div>
+
+
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+							 			<div class="navbar-collapse collapse" id="navbar-main">
+											<ul class="nav navbar-nav navbar-right" stylr="back" style="margin-top:18px;margin-bottom:0px;">
+												<li><a href="/index/explore" style="font-size:15px;">Explore</a></li>
+												<li><a href="/index/statistics" style="font-size:15px;">Statistics</a></li>
+												<li><a href="/index/download" style="font-size:15px;">Download</a></li>
+												<li><a href="/index/api" style="font-size:15px;">API</a></li>
+												<li><a class="dropdown-toggle" data-toggle="dropdown" href="#" id="aboutus" style="font-size:15px;"> About<span class="caret"></span></a>
+													<ul class="dropdown-menu" aria-labelledby="aboutus" style="background-color:rgba(0,0,0,0.65);">
+														<li><a href="/index/researchers" style="color:#FFF;">Researchers</a></li>
+														<li><a href="/index/students" style="color:#FFF;">Students</a></li>
+														<li><a href="/index/contact" target="_blank" style="color:#FFF;">Contact with us</a></li>
+													</ul>
+												</li>
+												<li>
+													<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="publications" style="font-size:15px;"> Publications <span class="caret"></span></a>
+													<ul class="dropdown-menu" aria-labelledby="publications" style="background-color:rgba(0,0,0,0.65)">
+														<li><a href="/index/publications" style="color:#FFF;">Publications</a></li>
+														<li><a href="/index/patents" style="color:#FFF;">Patents</a></li>
+													</ul>
+												</li>
+												<li><a class="dropdown-toggle" data-toggle="dropdown" href="#" id="language" style="font-size:15px;"> Language <span class="caret"></span></a>
+													<ul class="dropdown-menu" aria-labelledby="language" style="background-color:rgba(0,0,0,0.65)">
+														<li><a href="/home/ENG" style="color:#FFF;">English</a></li>
+														<li><a href="/home/CHN" style="color:#FFF;">中文</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="banner" class="banner">
+			<div class="banner-image">
+			</div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12  object-non-visible" data-animation-effect="fadeIn">
+							<div class="space"></div>
+							<h1 class="text-center">We are <span>OpenKGE</span></h1>
+							<p class="lead">
+								OpenKGE is open knowledge graph embeddings and toolkits organized by THUNLP. We provide an extremely fast implementation of some existing knowledge representation learning (KRL) methods. Besides some underlying design changes for acceleration, our implementation also supports multi-threaded training to save time. We also provide embeddings of the existing large-scale knowledge graphs learned by our toolkits, which can be directly used for some research fields.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="{{{{url_for('static', filename='plugins/jquery.min.js')}}}}"></script>
+		<script type="text/javascript" src="{{{{url_for('static', filename='bootstrap/js/bootstrap.min.js')}}}}"></script>
+		<script type="text/javascript" src="{{{{url_for('static', filename='plugins/modernizr.js')}}}}"></script>
+		<script type="text/javascript" src="{{{{url_for('static', filename='plugins/isotope/isotope.pkgd.min.js')}}}}"></script>
+		<script type="text/javascript" src="{{{{url_for('static', filename='plugins/jquery.backstretch.min.js')}}}}"></script>
+		<script type="text/javascript" src="{{{{url_for('static', filename='plugins/jquery.appear.js')}}}}"></script>
+		<script type="text/javascript" src="{{{{url_for('static', filename='js/template.js')}}}}"></script>
+		<script type="text/javascript" src="{{url_for('static', filename='js/custom.js')}}}}"></script>
+	</body>
+</html>

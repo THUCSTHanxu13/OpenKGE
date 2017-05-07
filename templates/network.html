@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>Worthy | Free Powerful Theme by HtmlCoder</title>
+    <meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+    <meta name="author" content="htmlcoder.me">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{url_for('static', filename='images/favicon.ico')}}">
+
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static', filename='bootstrap/css/bootstrap.css')}}" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="{{url_for('static', filename='fonts/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link href="{{url_for('static', filename='css/animations.css')}}" rel="stylesheet">
+
+    <!-- Worthy core CSS file -->
+    <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link href="{{url_for('static', filename='css/custom.css')}}" rel="stylesheet">
+
+   <script type="text/javascript" src="{{url_for('static', filename='d3/d3.js')}}"></script>
+
+  </head>
+
+  <body class="no-trans">
+    <!-- scrollToTop -->
+    <!-- ================ -->
+    <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+    <!-- header start -->
+    <!-- ================ -->
+    <header class="header fixed clearfix navbar navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="space"></div>
+
+            <!-- header-left start -->
+            <!-- ================ -->
+            <div class="header-left clearfix">
+
+              <!-- logo -->
+              <div class="logo smooth-scroll">
+                <a href="/home#banner"><img id="logo" width="60px" src="{{url_for('static', filename='images/logo.png')}}"></a>
+              </div>
+
+              <!-- name-and-slogan -->
+              <div class="site-name-and-slogan smooth-scroll">
+                <div class="site-name"><a href="/home#banner">Worthy</a></div>
+                <div class="site-slogan">Free Bootstrap Theme by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a></div>
+              </div>
+
+            </div>
+            <!-- header-left end -->
+            <div class="space"></div>
+
+          </div>
+          <div class="col-md-8">
+
+            <!-- header-right start -->
+            <!-- ================ -->
+            <div class="header-right clearfix">
+
+              <!-- main-navigation start -->
+              <!-- ================ -->
+              <div class="main-navigation animated">
+
+                <!-- navbar start -->
+                <!-- ================ -->
+                <nav class="navbar navbar-default" role="navigation">
+                  <div class="container-fluid">
+
+                    <!-- Toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/home#banner">Home</a></li>
+                        <li><a href="/home#about">About</a></li>
+                        <li class="active"><a href="/home#explore">Explore</a></li>
+                        <li><a href="/home#download">Download</a></li>
+                        <li><a href="/home#paper">Paper</a></li>
+                        <li><a href="/home#contact">Contact</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </nav>
+                <!-- navbar end -->
+
+              </div>
+              <!-- main-navigation end -->
+
+            </div>
+            <!-- header-right end -->
+              <div class="container">
+              <div class="row">
+                  <form name="searchForm" action="/search" method="get">
+                    <div class="col-md-6">
+                           <input type="text" id="word" placeholder="   Type a term or a text..."
+                            name="word" size = "64" style="height:50px;color:#FFFFFF;background-color:rgba(255,255,255,0.1);border:0px"/>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="submit" class="search-button form-inline btn btn-primary btn-large" id="mySubmit"
+                        onload="document.searchForm.mySubmit.disabled=false;" onclick="closeAutocompleter(); submit();"
+                        style="height:50px;">
+                        <span style="font-weight:bold;">
+                          Search
+                        </span>
+                      </button>
+                    </div>
+                  </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- banner start -->
+    <!-- ================ -->
+      <div class="banner-entity section translucent-bg bg-image-2 pb-clear">
+              <div class="space"></div>
+              <div class="space"></div>
+              <div class="space"></div>
+
+      </div>
+    <!-- banner end -->
+
+      <div id='network_container' style="background-image:url(/staic/images/banner.jpg)">
+      </div>
+
+<script type="text/javascript">
+    //
+    // var nodes = [{name : "0", id : "Q1", amount : 0},
+    //              {name : "1", id : "Q1", amount : 1},
+    //              {name : "2", id : "Q1", amount : 2},
+    //              {name : "3", id : "Q1", amount : 3},
+    //              {name : "4", id : "Q1", amount : 4},
+    //              {name : "5", id : "Q1", amount : 5},
+    //              {name : "6", id : "Q1", amount : 6},
+    //              {name : "7", id : "Q1", amount : 7}];
+    //
+    // var edges = [{source:0, target:1},
+    //              {source:0, target:2},
+    //              {source:0, target:3},
+    //              {source:1, target:4},
+    //              {source:2, target:5},
+    //              {source:3, target:6},
+    //              {source:4, target:7}
+    //              ];
+
+    var nodes = {{info.nodes}}
+
+    var edges = {{info.edges}}
+
+    var width = 1800;
+
+    var height =778;
+
+    var color = d3.scale.category20();
+
+    var svg = d3.select("#network_container")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+    for (var i = 1; i < 9; i++) {
+    svg.append("rect")
+          .attr("x", 30+i*50)
+          .attr("y", 30)
+          .attr("width", 50)
+          .attr("height", 50)
+          .style("fill", function() {
+                      var li = Math.round(255 - 255 * 1/(1 + Math.exp(-i + 5)));
+                      return d3.rgb(li,0,0).toString();
+                  });
+        }
+
+      svg.append("text")
+                .attr("class", "forceText")
+                .style("stroke", "#000000").style("stroke-width", 1).style("cursor","pointer")
+                .attr("dy", ".36em")
+                .attr("x", 90)
+                .attr("y", 20)
+                .text("MIN");
+
+      svg.append("text")
+                .attr("class", "forceText")
+                .style("stroke", "#000000").style("stroke-width", 1).style("cursor","pointer")
+                .attr("dy", ".36em")
+                .attr("x", 440)
+                .attr("y", 20)
+                .text("MAX");
+
+    var force = d3.layout.force()
+                  .gravity(.05)
+                  .distance(150)
+                  .charge(-400)
+                  .size([width, height]);
+
+    force.nodes(nodes).links(edges)
+
+    var lines = svg.selectAll(".forceLine")
+                  .data(edges)
+                  .enter()
+                  .append("line")
+                  .attr("class", "forceLine")
+                  .attr("stroke", "#CCC")
+                  .attr("stroke-width", "2");
+
+
+    var circles = svg.selectAll(".forceCircle")
+                  .data(nodes)
+                  .enter()
+                  .append("circle")
+                  .attr("class", "forceCircle")
+                  .attr("r",10).
+                  style("fill", function(d, i) {
+                      var li = Math.round(255 - 255 * 1/(1 + Math.exp(-d.amount + 5)));
+                      return d3.rgb(li,0,0).toString();
+                      //return rgb(li, 0, 0);
+                      // return color(d.amount)
+                      return "#FF0000"
+                  })
+                  .call(force.drag);
+
+    circles.append("a")
+                .attr("href", function(d) {
+                    return "/entity/d.id";
+                });
+
+
+    var texts = svg.selectAll(".forceText")
+                .data(nodes)
+                .enter()
+                .append("text")
+                .attr("class", "forceText")
+                .style("stroke", "#000000").style("stroke-width", 1).style("cursor","pointer")
+                .attr("dy", ".36em")
+                .text(function(d) { return d.name });
+
+    texts.on('click', function(d) {
+       window.open('entity/'+d.id,'newwindow','height=300,width=400,top=100,left=100,toolbar=no,menubar=no,scrollbars=no, resizable = no,location = no, status = no')
+    });
+
+
+    force.start();
+
+
+    force.on("tick", function(){
+      lines.attr("x1", function(d) {return d.source.x;})
+      lines.attr("y1", function(d) {return d.source.y;})
+      lines.attr("x2", function(d) {return d.target.x;})
+      lines.attr("y2", function(d) {return d.target.y;})
+
+      circles.attr("cx", function(d) {return d.x;});
+      circles.attr("cy", function(d) {return d.y;});
+
+      texts.attr("x", function(d) {return d.x+10;});
+      texts.attr("y", function(d) {return d.y+10;});
+    });
+
+</script>
+
+
+    <!-- JavaScript files placed at the end of the document so the pages load faster
+    ================================================== -->
+    <!-- Jquery and Bootstap core js files -->
+    <script type="text/javascript" src="{{url_for('static', filename='plugins/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></script>
+
+    <!-- Modernizr javascript -->
+    <script type="text/javascript" src="{{url_for('static', filename='plugins/modernizr.js')}}"></script>
+
+    <!-- Isotope javascript -->
+    <script type="text/javascript" src="{{url_for('static', filename='plugins/isotope/isotope.pkgd.min.js')}}"></script>
+
+    <!-- Backstretch javascript -->
+    <script type="text/javascript" src="{{url_for('static', filename='plugins/jquery.backstretch.min.js')}}"></script>
+
+    <!-- Appear javascript -->
+    <script type="text/javascript" src="{{url_for('static', filename='plugins/jquery.appear.js')}}"></script>
+
+    <!-- Initialization of Plugins -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/template.js')}}"></script>
+
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/custom.js')}}"></script>
+
+  </body>
+</html>
